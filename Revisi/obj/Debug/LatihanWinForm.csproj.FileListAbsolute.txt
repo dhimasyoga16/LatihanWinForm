@@ -1,9 +1,0 @@
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\bin\Debug\LatihanWinForm.exe.config
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\bin\Debug\LatihanWinForm.exe
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\bin\Debug\LatihanWinForm.pdb
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\obj\Debug\LatihanWinForm.csprojResolveAssemblyReference.cache
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\obj\Debug\LatihanWinForm.Form1.resources
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\obj\Debug\LatihanWinForm.Properties.Resources.resources
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\obj\Debug\LatihanWinForm.csproj.GenerateResource.Cache
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\obj\Debug\LatihanWinForm.exe
-E:\Tugas Kuliah\Semester 3\Pemrograman Lanjut\Praktikum 3\LatihanWinForm\LatihanWinForm\obj\Debug\LatihanWinForm.pdb

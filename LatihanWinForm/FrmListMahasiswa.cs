@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace LatihanWinForm
 {
@@ -112,6 +113,37 @@ namespace LatihanWinForm
             if(result == DialogResult.Yes)
             {
                 this.Close();
+            }
+        }
+
+        private void lvwMahasiswa_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lvwMahasiswa.SelectedItems.Count > 0)
+            {
+                var index = lvwMahasiswa.SelectedIndices[0];
+                var npm = lvwMahasiswa.Items[index].SubItems[1].Text;
+                var nama = lvwMahasiswa.Items[index].SubItems[2].Text;
+                var jenisKelamin = lvwMahasiswa.Items[index].SubItems[3].Text;
+                string tempatLahir = lvwMahasiswa.Items[index].SubItems[4].Text;
+                string tanggalLahir = lvwMahasiswa.Items[index].SubItems[5].Text;
+                DateTime dt = DateTime.ParseExact(tanggalLahir, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+                mskNpm.Text = npm;
+                txtNama.Text = nama;
+
+                txtTempatLahir.Text = tempatLahir;
+                if(jenisKelamin == "Laki-laki")
+                {
+                    rdoLakilaki.Checked = true;
+                    rdoPerempuan.Checked = false;
+                }
+                else
+                {
+                    rdoLakilaki.Checked = false;
+                    rdoPerempuan.Checked = true;
+                }
+
+                dtpTanggalLahir.Value = dt;
             }
         }
     }

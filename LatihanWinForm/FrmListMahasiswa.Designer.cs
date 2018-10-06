@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.mskNpm = new System.Windows.Forms.MaskedTextBox();
-            this.txtNama = new System.Windows.Forms.TextBox();
-            this.rdoLakilaki = new System.Windows.Forms.RadioButton();
-            this.rdoPerempuan = new System.Windows.Forms.RadioButton();
-            this.txtTempatLahir = new System.Windows.Forms.TextBox();
             this.dtpTanggalLahir = new System.Windows.Forms.DateTimePicker();
+            this.txtTempatLahir = new System.Windows.Forms.TextBox();
+            this.rdoPerempuan = new System.Windows.Forms.RadioButton();
+            this.rdoLakilaki = new System.Windows.Forms.RadioButton();
+            this.txtNama = new System.Windows.Forms.TextBox();
+            this.mskNpm = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -70,76 +70,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "[ Data Mahasiswa ]";
             // 
-            // label1
+            // dtpTanggalLahir
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "NPM";
+            this.dtpTanggalLahir.CustomFormat = "dd/MM/yyyy";
+            this.dtpTanggalLahir.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTanggalLahir.Location = new System.Drawing.Point(145, 196);
+            this.dtpTanggalLahir.Name = "dtpTanggalLahir";
+            this.dtpTanggalLahir.Size = new System.Drawing.Size(200, 26);
+            this.dtpTanggalLahir.TabIndex = 10;
             // 
-            // label2
+            // txtTempatLahir
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 77);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nama";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 116);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Jenis Kelamin";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 157);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Tempat Lahir";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 197);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Tanggal Lahir";
-            // 
-            // mskNpm
-            // 
-            this.mskNpm.Location = new System.Drawing.Point(145, 31);
-            this.mskNpm.Mask = "##.##.####";
-            this.mskNpm.Name = "mskNpm";
-            this.mskNpm.Size = new System.Drawing.Size(100, 26);
-            this.mskNpm.TabIndex = 5;
-            // 
-            // txtNama
-            // 
-            this.txtNama.Location = new System.Drawing.Point(145, 76);
-            this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(202, 26);
-            this.txtNama.TabIndex = 6;
-            // 
-            // rdoLakilaki
-            // 
-            this.rdoLakilaki.AutoSize = true;
-            this.rdoLakilaki.Location = new System.Drawing.Point(145, 114);
-            this.rdoLakilaki.Name = "rdoLakilaki";
-            this.rdoLakilaki.Size = new System.Drawing.Size(98, 24);
-            this.rdoLakilaki.TabIndex = 7;
-            this.rdoLakilaki.TabStop = true;
-            this.rdoLakilaki.Text = "Laki - Laki";
-            this.rdoLakilaki.UseVisualStyleBackColor = true;
+            this.txtTempatLahir.Location = new System.Drawing.Point(145, 156);
+            this.txtTempatLahir.Name = "txtTempatLahir";
+            this.txtTempatLahir.Size = new System.Drawing.Size(202, 26);
+            this.txtTempatLahir.TabIndex = 9;
             // 
             // rdoPerempuan
             // 
@@ -152,21 +97,76 @@
             this.rdoPerempuan.Text = "Perempuan";
             this.rdoPerempuan.UseVisualStyleBackColor = true;
             // 
-            // txtTempatLahir
+            // rdoLakilaki
             // 
-            this.txtTempatLahir.Location = new System.Drawing.Point(145, 156);
-            this.txtTempatLahir.Name = "txtTempatLahir";
-            this.txtTempatLahir.Size = new System.Drawing.Size(202, 26);
-            this.txtTempatLahir.TabIndex = 9;
+            this.rdoLakilaki.AutoSize = true;
+            this.rdoLakilaki.Location = new System.Drawing.Point(145, 114);
+            this.rdoLakilaki.Name = "rdoLakilaki";
+            this.rdoLakilaki.Size = new System.Drawing.Size(98, 24);
+            this.rdoLakilaki.TabIndex = 7;
+            this.rdoLakilaki.TabStop = true;
+            this.rdoLakilaki.Text = "Laki - Laki";
+            this.rdoLakilaki.UseVisualStyleBackColor = true;
             // 
-            // dtpTanggalLahir
+            // txtNama
             // 
-            this.dtpTanggalLahir.CustomFormat = "dd/MM/yyyy";
-            this.dtpTanggalLahir.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpTanggalLahir.Location = new System.Drawing.Point(145, 196);
-            this.dtpTanggalLahir.Name = "dtpTanggalLahir";
-            this.dtpTanggalLahir.Size = new System.Drawing.Size(200, 26);
-            this.dtpTanggalLahir.TabIndex = 10;
+            this.txtNama.Location = new System.Drawing.Point(145, 76);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(202, 26);
+            this.txtNama.TabIndex = 6;
+            // 
+            // mskNpm
+            // 
+            this.mskNpm.Location = new System.Drawing.Point(145, 31);
+            this.mskNpm.Mask = "##.##.####";
+            this.mskNpm.Name = "mskNpm";
+            this.mskNpm.Size = new System.Drawing.Size(100, 26);
+            this.mskNpm.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 197);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(105, 20);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Tanggal Lahir";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 157);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Tempat Lahir";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 116);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(106, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Jenis Kelamin";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 77);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nama";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "NPM";
             // 
             // btnSimpan
             // 
@@ -208,6 +208,7 @@
             this.lvwMahasiswa.Size = new System.Drawing.Size(628, 246);
             this.lvwMahasiswa.TabIndex = 0;
             this.lvwMahasiswa.UseCompatibleStateImageBehavior = false;
+            this.lvwMahasiswa.SelectedIndexChanged += new System.EventHandler(this.lvwMahasiswa_SelectedIndexChanged);
             // 
             // btnTutup
             // 
